@@ -1,0 +1,56 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo{
+    height: 200px;
+}
+
+.button{
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px darkslategray;
+    border-style: outset;
+    border-color: plum;
+    background-color:  plum;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 20px;
+    border-width: 2px;
+    transition-property: border-color, background-color, color, border-radius;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+
+.buttonGroup{
+    margin-top: 5%;
+    margin-left: 10%;
+    flex-grow: 1;
+}
+.button:hover{
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    color: black;
+    text-shadow: 2px 2px 2px purple;
+}
+.active{
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    color: black;
+    text-shadow: 1px 2px 2px purple;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px darkslategray;
+    border-style: outset;
+    border-radius: 20px;
+    border-width: 2px;
+    transition-property: border-color, background-color, color, border-radius;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}

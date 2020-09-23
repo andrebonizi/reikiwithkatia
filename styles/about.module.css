@@ -1,0 +1,12 @@
+
+.about{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    height: 300px;
+}
+.text{
+    width: 80%;
+    padding-right: 5%;
+}

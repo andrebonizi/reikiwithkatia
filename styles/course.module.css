@@ -1,0 +1,15 @@
+
+.course{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    border-radius: 500px;
+    object-fit: cover;
+}
+.text{
+    width: 50%;
+    padding-right: 5%;
+}

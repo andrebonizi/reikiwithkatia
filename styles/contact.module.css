@@ -1,0 +1,9 @@
+.form{
+    width: 50%;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px darkslategray;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, plum, white);
+}
